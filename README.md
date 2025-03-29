@@ -1,12 +1,50 @@
-# React + Vite
+# EmployWise - Vite React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EmployWise is a simple user management application built with **Vite and React**. It allows you to perform CRUD operations such as adding, editing, and deleting users.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo
+[Click here to view the app](https://employwise-wopz.onrender.com) – Hosted on Render.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- **Vite** - Fast Frontend Tooling
+- **React** - UI Library for Frontend
+- **Tailwind CSS** - For Beautiful and Responsive UI
+- **Axios** - To Handle API Requests
+- **React Router DOM** - For Navigation
+
+---
+
+## 🔥 Features
+-  **Login and Authentication**  
+-  **View User List with Pagination**  
+-  **Edit, Delete, and Search Users**  
+-  **Responsive UI with Modern Design**  
+-  **Fast Deployment using Render**
+
+---
+
+##  Installation and Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Nikita-kothiwala/Employwise
+cd employwise-vite-react
+
+
+### 2. Install Dependencies
+npm install
+
+### 3.Run Development Server
+npm run dev 
+
+
+### Build and Run
+To create a production build:
+npm run build
+
+### Serve the build locally:
+npx serve -s dist
